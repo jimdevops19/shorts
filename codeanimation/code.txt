@@ -1,0 +1,16 @@
+# Python cool magic methods:
+
+
+class Person:
+    def __init__(, name):
+        self.name = name
+
+    def __eq__(, other):
+        return self.name == other.name
+
+    def __repr__():
+        return f'Person({self.name})'
+
+    def __len__():
+         return len(str(self.name))
+
